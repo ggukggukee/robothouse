@@ -1,0 +1,16 @@
+{
+  "name": "projecttwo",
+  "version": "1.0.0",
+  "description": "Robot House website. projectDemo. All information on this site is fictional.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  }
+}

@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html { 
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: auto;
+}
+
+body {
+    min-height: 100%; 
+    position: relative; 
+    padding-bottom: 100px;
+    overflow: hidden;
+}
+
+.jumbotron {
+    background: #E0EAFC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+footer { 
+    position: absolute; 
+    left: 0 ; right: 0; bottom: 0; 
+    height: 100px; 
+}
+
+
